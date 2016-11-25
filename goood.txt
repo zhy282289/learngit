@@ -1,2 +1,12 @@
-23123
-3333333333333333
+	int markPosition = TimelineViewControl::GetInstance()->GetCurrentFrames();
+	int renderPosition = m_markManager->GetRenderPosition(markPosition);
+	painter.drawText(rect().adjusted(4, 0, 0, 0), Qt::AlignLeft | Qt::AlignVCenter, QString("mark:%1 render:%2").arg(markPosition).arg(renderPosition));
+
+	Абет
+	321
+	321213
+	12
+	32112
+	32112312
+	312
+	
